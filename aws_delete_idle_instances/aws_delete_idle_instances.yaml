@@ -1,0 +1,4 @@
+name: aws_delete_idle_instances
+summary: Delete idle AWS instances
+display_name: Delete idle AWS instances
+

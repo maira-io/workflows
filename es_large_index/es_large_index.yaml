@@ -1,0 +1,4 @@
+name: es_large_index
+summary: Find ElasticSearch Indexes larger than a threshold
+display_name: Find Large ElasticSearch Indexes
+

@@ -1,0 +1,4 @@
+name: aws_resource_monitor
+summary: Monitor AWS resources, notify owners about their usage and delete unused resources
+display_name: AWS Resource Monitor
+

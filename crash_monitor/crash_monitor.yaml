@@ -1,0 +1,3 @@
+name: crash_monitor
+summary: Monitor logs for crash reports and create new issues or update existing one
+display_name: Crash Monitor

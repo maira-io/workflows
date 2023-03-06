@@ -1,0 +1,3 @@
+# AWS delete idle EC2 instances
+
+This workflow scans your EC2 instances and determines if it has been "idle" over a specified period. To determine if an instance is idle, it uses three separate statistics from cloudwatch. It uses average CPU utilization, Network incoming and outgoing bandwidth. It calculates the maximum values of these 3 metrics over a period of 7 days, in increments of one hour and if the values are below a threshold, it will list such instances and send a confirmation message to the admins. If confirmed, it will delete those instances. In either case, it will send a notification about idle instances found and the action taken  on slack. 

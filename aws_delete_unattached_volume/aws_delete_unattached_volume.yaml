@@ -1,0 +1,4 @@
+name: aws_delete_unattached_volume
+summary: Delete AWS EC2 volumes that are not attached with any instance
+display_name: Delete unattached AWS EC2 volumes
+
